@@ -5,7 +5,7 @@
 Usage:
 
 
-$ python3 client.py --mode [text/bin]
+    $ python3 client.py --mode [text/bin]
 
 
 Text mode is used by default.
@@ -14,9 +14,8 @@ Text mode is used by default.
 In order to use the script in the text mode please build and start the listener first:
 
 
-$ make
-
-$ ./listen&
+    $ make
+    $ ./listen&
 
 
 Counter command examples:
@@ -24,18 +23,18 @@ Counter command examples:
 
 Initialize the counter:
 
-hi&
+    hi&
 
 Reset the counter:
 
-reset&
+    reset&
 
 Stop the counter:
 
-interrupt&
+    interrupt&
 
 Set the threshold of 2000 DAC units and count number of pulses at channel 1 within 1 second:
 
-dac=2000&chs=80000000&time=1&step=1&nSteps=1&
+    dac=2000&chs=80000000&time=1&step=1&nSteps=1&
 
 For binary commands format please refer to https://grschlos.github.io/counter/
