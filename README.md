@@ -37,4 +37,4 @@ Set the threshold of 2000 DAC units and count number of pulses at channel 1 with
 
     dac=2000&chs=80000000&time=1&step=1&nSteps=1&
 
-For binary commands format please refer to https://grschlos.github.io/counter/
+For binary commands format please refer to https://github.com/grschlos/counter32
